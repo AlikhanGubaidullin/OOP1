@@ -1,4 +1,7 @@
+package Classes;
+
 public class viewer {
+    public viewer(){}
     private String viewerName;
     private int viewerID;
     private int viewerPlace;

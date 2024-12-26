@@ -1,29 +1,32 @@
+package Classes;
+
 public class cinema {
-    private String cinemaName;
+    public cinema(){}
+    private String cinemaSize;
     private int cinemaPrice;
     private String cinemaType;
 
 
-    public String getCinemaName() {
-        return cinemaName;
+    public String getCinemaSize() {
+        return cinemaSize;
     }
 
-    public void setCinemaName(String name) {
-        this.cinemaName = name;
+    public void setCinemaSize(String size) {
+        this.cinemaSize = size;
     }
 
-    public int getcinemaPrice() {
+    public int getCinemaPrice() {
         return cinemaPrice;
     }
 
-    public void setcineaPrice(int price) {
+    public void setCinemaPrice(int price) {
         this.cinemaPrice = price;
     }
 
-    public String getcinemaType() {
+    public String getCinemaType() {
         return cinemaType;
     }
-    public void setcinemaType(String type) {
+    public void setCinemaType(String type) {
         this.cinemaType = type;
     }
 

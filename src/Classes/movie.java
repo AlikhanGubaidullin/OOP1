@@ -1,16 +1,17 @@
+package Classes;
 
 public class movie {
-    private String movieName;
+    private String movieTitle;
     private int movieYear;
     private String movieGenre;
 
-
-    public String getMovieName() {
-        return movieName;
+    public movie(){}
+    public String getMovieTitle() {
+        return movieTitle;
     }
 
-    public void setmovieName(String name) {
-        this.movieName = name;
+    public void setMovieTitle(String title) {
+        this.movieTitle = title;
     }
 
     public int getMovieYear() {
@@ -27,6 +28,5 @@ public class movie {
     public void setMovieGenre(String genre) {
         this.movieGenre = genre;
     }
-
 
 }
